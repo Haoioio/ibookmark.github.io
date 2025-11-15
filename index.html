@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!--适配iPhone添加标签-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <meta name="apple-mobile-web-app-title" content="iOS书签恶搞">
+    <!--<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">-->
+    <title>iOS书签恶搞</title>
+    <style>
+        .center-box {
+          display: flex;
+          justify-content: center; /* 水平居中 */
+          align-items: center;     /* 垂直居中 */
+          height: 120px;           /* 容器要有高度 */
+          background: #fff;
+          border: 3px solid #f1f3f5;  /* 只是为了看清楚 */
+          border-radius:12px;
+          /*box-shadow:0 2px 6px rgba(0,0,0,0.08);*/
+          
+        }
+        /* 页脚样式 */
+        .footer {
+          height: 70px;
+          background-color: #fff;
+          color: inherit;
+          text-align: center;
+          padding: 0px;
+          font-size: 0.9rem;
+          /*box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);  轻微阴影 */
+          margin-top: 50px; /* 确保页脚始终在页面底部 */
+          margin-bottom: 0px;
+          
+        }
+        
+        .footer p {
+          margin: 0;
+          line-height: 1.5;
+        }
+        
+        .footer a {
+          text-decoration: none; /* 取消下划线 */
+          color: #47A1F4;
+        }
+            *{margin:0px;padding:0px;box-sizing:border-box}
+            .body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#fff;padding:20px}
+            h1{text-align:center;margin:20px 0;color:#333}
+            .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px;max-width:900px;margin:0 auto}
+            .card{background:#f1f3f5;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.08);text-decoration:none;color:#333;display:flex;flex-direction:column;align-items:center;transition:.2s}
+            .card:hover{transform:translateY(-3px);box-shadow:0 4px 12px rgba(0,0,0,0.15)}
+            .icon{font-size:32px;margin-bottom:5px;}
+            .img{height:50px;border-radius:25px;}
+            .title{font-size:14px;font-weight:600}
+            @media(max-width:600px){
+              h1{font-size:24px;margin:12px;margin-top: 25px;}
+              .grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px}
+              .card{padding:16px}
+              .icon{font-size:28px}
+              .title{font-size:16px}
+            }
+    </style>
+</head>
+
+<body class="body">
+    <div class="center-box">
+        <img src="img/logo.png" style="height: 100px;">
+    </div>
+    <h1>安卓ROOT书签</h1>
+    <div class="grid">
+        <a class="card" href="./pages/magisk.html" target="_blank">
+            <div class="icon"><img class="img" src="img/magisk.png"></div>
+            <div class="title">Magisk</div>
+        </a>
+        <a class="card" href="./pages/kitsune-mask.html" target="_blank">
+            <div class="icon"><img class="img" src="img/kitsune-mask.png"></div>
+            <div class="title">Kitsune Mask</div>
+        </a>
+        <a class="card" href="./pages/kernelsu.html" target="_blank">
+            <div class="icon"><img class="img" src="img/kernelsu.png"></div>
+            <div class="title">KernelSU</div>
+        </a>
+        <a class="card" href="./pages/kernelsu-next.html" target="_blank">
+            <div class="icon"><img class="img" src="img/kernelsu-next.png"></div>
+            <div class="title">KernelSU Next</div>
+        </a>
+        <a class="card" href="./pages/sukisu-ultra.html" target="_blank">
+            <div class="icon"><img class="img" src="img/sukisu-ultra.png"></div>
+            <div class="title">SukiSU Ultra</div>
+        </a>
+        <a class="card" href="./pages/apatch.html" target="_blank">
+            <div class="icon"><img class="img" src="img/apatch.png"></div>
+            <div class="title">APatch</div>
+        </a>
+        <a class="card" href="./pages/lsposed.html" target="_blank">
+            <div class="icon"><img class="img" src="img/lsposed.png"></div>
+            <div class="title">LSPosed</div>
+        </a>
+        <a class="card" href="./pages/scene.html" target="_blank">
+            <div class="icon"><img class="img" src="img/scene.png"></div>
+            <div class="title">Scene</div>
+        </a>
+        <a class="card" href="./pages/konabess.html" target="_blank">
+            <div class="icon"><img class="img" src="img/konabess.png"></div>
+            <div class="title">KonaBess</div>
+        </a>
+        <a class="card" href="./pages/momo.html" target="_blank">
+            <div class="icon"><img class="img" src="img/momo.png"></div>
+            <div class="title">Momo</div>
+        </a>
+        <a class="card" href="./pages/ruru.html" target="_blank">
+            <div class="icon"><img class="img" src="img/ruru.png"></div>
+            <div class="title">Ruru</div>
+        </a>
+        <a class="card" href="./pages/native-test.html" target="_blank">
+            <div class="icon"><img class="img" src="img/native-test.png"></div>
+            <div class="title">Native Test</div>
+        </a>
+        <a class="card" href="./pages/thanox.html" target="_blank">
+            <div class="icon"><img class="img" src="img/thanox.png"></div>
+            <div class="title">Thanox</div>
+        </a>
+        <a class="card" href="./pages/awjtool.html" target="_blank">
+            <div class="icon"><img class="img" src="img/awjtool.png"></div>
+            <div class="title">爱玩机工具箱</div>
+        </a>
+        <a class="card" href="./pages/mt.html" target="_blank">
+            <div class="icon"><img class="img" src="img/mt.png"></div>
+            <div class="title">MT管理器</div>
+        </a>
+        <a class="card" href="./pages/mt2.html" target="_blank">
+            <div class="icon"><img class="img" src="img/mt2.png"></div>
+            <div class="title">MT管理器</div>
+        </a>
+    </div>
+    <h1>其他</h1>
+    <div class="grid">
+        <a class="card" href="./pages/ztsx.html" target="_blank">
+            <div class="icon"><img class="img" src="img/ztsx.png"></div>
+            <div class="title">主体思想</div>
+        </a>
+        
+        <a class="card" href="https://by91.qzz.io" target="_blank">
+            <div class="icon"><img class="img" src="img/91icon.png"></div>
+            <div class="title">91视频</div>
+        </a>
+    </div>
+    <!--
+    <h1>自用</h1>
+    <div class="grid">
+        <a class="card" href="https://senpai114514.icu/pages/ios_certificates.html" target="_blank">
+            <div class="icon"><img class="img" src="img/ios_certificate.png"></div>
+            <div class="title">iOS老设备证书</div>
+        </a>
+    </div>
+    -->
+</body>
+<footer class="footer">
+<!--分割线-->
+    <div class="divider" style="margin-bottom: 12.5px;">
+        <svg aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-6022fb55="">
+            <pattern id="a" width="91" height="8" patternunits="userSpaceOnUse" data-v-6022fb55="">
+                <g clip-path="url(#clip0_2426_11367)" data-v-6022fb55="">
+                    <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="#E1E3E1" stroke-linecap="square" data-v-6022fb55=""></path>
+                </g>
+            </pattern>
+            <rect width="100%" height="100%" fill="url(#a)" data-v-6022fb55=""></rect>
+        </svg>
+    </div>
+    <p>© 2025 iOS书签恶搞 | <a href="https://haonp.top">Hao</a></p>
+    <a target="_blank" href="https://icp.gov.moe/?keyword=20255508" style="text-decoration: none;"><img src="img/moe.png" width="14" height="14" style="margin-right: 5px; vertical-align: middle;">萌ICP备20255508号</a>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?1ddda66647991b7cd418fdff05fe2617";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</footer>
+
+</html>
